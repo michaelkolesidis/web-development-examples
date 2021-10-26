@@ -44,3 +44,10 @@
         animation-timing-function: ease-in;
     }
 }
+
+.floor {
+    margin-top: 330px;
+    width: 240px;
+    height: 50px;
+    background: rgb(173, 173, 173);
+}
