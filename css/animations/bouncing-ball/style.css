@@ -1,10 +1,9 @@
 .ball {
     width: 140px;
     height: 140px;
-    border-radius: 100%;
+    border-radius: 50%;
     background: #22A7F0;
     animation: bounce 1s;
-    transform: translateY(0px);
     animation-iteration-count: infinite;
     position: absolute;
     margin: 50px;
