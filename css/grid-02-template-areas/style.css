@@ -1,0 +1,60 @@
+html,
+body {
+    font-family: Helvetica;
+    font-size: 1.2rem;
+}
+
+.container {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* align-items: start; */
+    grid-template-areas: 
+        "g11 g12 g13"
+        "g21 g22 g22"
+        "g31 g31 g32"
+        "g41 g42 g43";
+        
+     
+}
+
+.one {
+    color: blue;
+    grid-area: g21;
+}
+
+.two {
+    color: red;
+    grid-area: g11;
+}
+
+.three {
+    color: green;
+    grid-area: g13;
+}
+
+.four {
+    color: black;
+    /* grid-column: 1 / span 2; */
+    grid-area: g12;
+}
+
+.five {
+    color: orange;
+    grid-area: g22;
+}
+
+.six {
+    color: purple;
+    grid-area: g43;
+}
+
+.seven {
+    color: aqua;
+    grid-area: g32;
+}
+
+.eight {
+    color:tomato;
+    grid-area: g42;
+}

@@ -1,0 +1,18 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+
+div {
+    background: linear-gradient(#648880, #293f50);
+    height: 100vh;
+    text-align: center;
+    padding: 10rem;
+    font-size: 20rem;
+    font-weight:900;
+    font-family: Helvetica;
+    text-shadow: 10px 10px black;
+    color: white;
+}

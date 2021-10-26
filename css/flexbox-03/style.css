@@ -1,0 +1,65 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+    /* align-items: flex-end; */
+    height: 400px;
+    /* align-content: flex-end; */
+}
+
+#red {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* align-self: flex-end; */
+}
+
+#green {
+    width: 200px;
+    height: 200px;
+    background-color: green;
+}
+
+#blue {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    flex-grow: 4;
+}
+
+#yellow {
+    width: 200px;
+    height: 200px;
+    background-color: yellow;
+}
+
+#pink {
+    width: 200px;
+    height: 200px;
+    background-color: pink;
+}
+
+#purple {
+    width: 200px;
+    height: 200px;
+    background-color: purple;
+}
+
+#aqua {
+    width: 200px;
+    height: 200px;
+    background-color: aqua;
+}
+
+#orange {
+    width: 200px;
+    height: 200px;
+    background-color: orange;
+}

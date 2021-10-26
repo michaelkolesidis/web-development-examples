@@ -1,0 +1,49 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 60rem;
+  }
+
+header {
+    color: white;
+    background-color: purple;
+    font-size: 2rem;
+    font-weight: 600;
+    padding: 0.6rem;
+    text-align: center;
+}
+
+section {
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap; */
+    /* Instead of flex-direction and flex-wrap, we can use flex-flow: */
+    /* flex-flow: row wrap;  */
+}
+
+article {
+    background-color: aqua;
+    padding: 1rem;
+    margin: 0.4rem;
+    text-align: justify;
+    /* flex here goes with flex-flow from section */
+    /* flex: 200px; */
+    flex: 1 200px;
+    /* With flex: 1, each article occupies proportionally the same space in the container */
+    /* When we add 200px to flex, first each element gets 200px and then the rest is distributed */
+}
+
+article:nth-of-type(3) {
+    flex: 6 200px;
+    /* The third article takes twice as much space, total space: 1+1+2=4 */
+    /* When we add 200px to flex, first each element gets 200px and then the rest is distributed */
+  }
+
+article h3 {
+    font-size: 1.4rem;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+}
