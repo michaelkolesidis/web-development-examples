@@ -1,0 +1,59 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 2rem;
+  font-weight: 600;
+  background: rgb(255, 255, 255);
+}
+
+#flag {
+  border-top: 50px solid white;
+  border-bottom: 50px solid white;
+  width: 900px;
+}
+
+#top-stripe {
+  width: 900px;
+  height: 100px;
+  margin-bottom: 20px;
+  background-color: #0d34b3;
+}
+
+#star {
+  margin-left: 320px;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 200px solid #0d34b3;
+  position: relative;
+  transition: transform 2s;
+}
+
+#star:after {
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 200px solid #0d34b3;
+  position: absolute;
+  content: "";
+  top: 60px;
+  left: -120px;
+}
+
+#star:hover {
+  transform: rotate(360deg);
+}
+
+#bottom-stripe {
+  width: 900px;
+  height: 100px;
+  margin-top: 80px;
+  background-color: #0d34b3;
+}
