@@ -1,6 +1,8 @@
-A recreation (kind of) of the flag of Israel using CSS after.
+A recreation of the Ink Flag of Israel using CSS after.
 
 <img src="https://github.com/michaelkolesidis/web-development-examples/blob/main/css/before-after/flag-of-israel/israel.png">
+
+As seen in: https://en.wikipedia.org/wiki/Ink_Flag
 
 Shapes modified from: https://css-tricks.com/the-shapes-of-css/
 
