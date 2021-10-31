@@ -1,3 +1,3 @@
-A reconstruction of the flag of Israel using CSS after.
+A recreation (kind of) of the flag of Israel using CSS after.
 
-*No politics involved*
+*The flag was picked for demonstrative purposes. No politics involved*
